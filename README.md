@@ -1,4 +1,4 @@
-**##Este projeto é um aplicativo web básico criado com HTML, CSS e JavaScript que celebra a fofura e a diversidade dos gatos.##**
+## Este projeto é um aplicativo web básico criado com HTML, CSS e JavaScript que celebra a fofura e a diversidade dos gatos.
 
 **A aplicação apresenta:**
 
@@ -9,7 +9,7 @@
 ***3. Formulário:*** Um formulário simples para que os usuários compartilhem fotos e informações sobre seus próprios gatos.
 
 
-**Objetivo:**
+## Objetivo:
 O principal objetivo deste projeto é demonstrar os fundamentos da construção de páginas web utilizando HTML. Além disso, serve como um ponto de partida para quem deseja aprender mais sobre desenvolvimento web e tem paixão por gatos.
 
 
