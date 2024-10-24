@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+<head> 
+ <meta charset="UTF 8"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+<title>Gatinhos Fofos</title> 
+<link rel="stylesheet" href="style.css">
+</head>
+
+<!--Início do corpo do texto-->
+<body>
+
+  <main>
+      <h1>CatPhotoApp</h1>
+      <section>
+      <h2>Cat Photos</h2>
+      <!-- Add link para cat photos -->
+      <p>Veja mais<a href="https://freecatphotoapp.com" target="_blank"> fotos de gatinhos</a> na sua galeria</p>
+      <a href="https://freecatphotoapp.com">
+      <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Um lindo gatinho laranja aparece na sua tela">
+      </a>
+      </section>
+
+      <section>
+       <h2>Cat List</h2>
+       <h3>Coisas que gatinhos amam: </h3>
+       <ul> 
+          <li>Soneca</li>
+          <li>Pontinho laser</li>
+          <li>Lasanha</li>
+       </ul>
+       <figure>
+       <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="Um prato de lasanha">
+       <figcaption>Gatos <em>amam</em> lasanha.</figcaption>
+      </figure>
+      
+      <h3>Tres coisas que gatos odeiam: </h3>
+      <ol>
+         <li>Trovoes</li>
+         <li> Tratamento indiferente</li>
+         <li>Outros gatos</li>
+      </ol>
+
+      <figure>
+        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+        <figcaption> Gatos <strong>detestam</strong> outros gatos. </figcaption>
+      </figure>
+
+         <section>
+             <h2>Cat Form</h2>
+                <form action="https://freecatphotoapp.com/submit-cat-photo">
+                  <fieldset>
+                    <legend>O seu gato é um gato caseiro ou rueiro?</legend>
+                       <label>
+                           <input checked ="caseiro" type="radio" name="caseiro-rueiro" value="caseiro">Caseiro 
+                      </label>
+                      <label>
+                        <input id="rueiro" type="radio" name="caseiro-rueiro" value="rueiro">Rueiro 
+                   </label>
+
+                  </fieldset>
+
+                  <fieldset>
+                         <legend>Qual é a personalidade do seu gato?</legend>
+                         <input id="amavel" type="checkbox" name="personality" value="amavel"> <label for="amavel">Amável</label>
+                         <input id="preguicoso" type="checkbox" name="personality" value="preguicoso"> <label for="preguicoso">Preguiçoso</label>
+                         <input id="agitado" type="checkbox" name="personality" value="agitado"> <label for="agitado">Agitado</label>
+
+                  </fieldset>
+
+                  <input type="text" name="GatosURL" placeholder="fotos de gatinhos URL" required>
+                  <button type="subimit">Pesquise</button>
+
+
+                </form>
+
+         </section>
+
+      </section>
+
+  </main> 
+
+ <footer>
+  <p> Todos os direitos reservados </p>
+</footer>
+
+</body>
+<script src="dados.js" ></script>
+
+</html>
